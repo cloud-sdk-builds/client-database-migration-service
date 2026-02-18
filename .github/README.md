@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-database-migration-service`](https://www.npmjs.com/package/@aws-sdk/client-database-migration-service/v/3.105.0).
+[`@aws-sdk/client-database-migration-service`](https://www.npmjs.com/package/@aws-sdk/client-database-migration-service/v/3.107.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-database-migration-service@3.105.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-database-migration-service@3.107.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-P5zI4HPVf722NXWy77pqZwNNhrFsetBUIc6xXiWijsE9FWsqTELd2c50sR12U+4K
+sha384-xR8G+zlon/Vcr8f6lODGhlE0zgJtj56kSBwqK4qqeZJYhlMUcYyQaF2tk49rcR2T
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-database-migration-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-database-migration-service@3.105.0/index.min.mjs"
+            "@aws-sdk/client-database-migration-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-database-migration-service@3.107.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-database-migration-service@3.105.0/index.min.mjs": "sha384-P5zI4HPVf722NXWy77pqZwNNhrFsetBUIc6xXiWijsE9FWsqTELd2c50sR12U+4K"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-database-migration-service@3.107.0/index.min.mjs": "sha384-xR8G+zlon/Vcr8f6lODGhlE0zgJtj56kSBwqK4qqeZJYhlMUcYyQaF2tk49rcR2T"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-database-migration-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-database-migration-service@3.105.0/index.min.mjs"
+                        "@aws-sdk/client-database-migration-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-database-migration-service@3.107.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-database-migration-service@3.105.0/index.min.mjs": "sha384-P5zI4HPVf722NXWy77pqZwNNhrFsetBUIc6xXiWijsE9FWsqTELd2c50sR12U+4K"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-database-migration-service@3.107.0/index.min.mjs": "sha384-xR8G+zlon/Vcr8f6lODGhlE0zgJtj56kSBwqK4qqeZJYhlMUcYyQaF2tk49rcR2T"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.105.0`)
+* Always pin to a specific version (`@3.107.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-database-migration-service/blob/refs/tags/3.105.0/LICENSE
+https://github.com/cloud-sdk-builds/client-database-migration-service/blob/refs/tags/3.107.0/LICENSE
 ```
 
 ---
